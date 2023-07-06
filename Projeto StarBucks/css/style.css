@@ -1,0 +1,119 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin:0 auto;
+    padding:0 2%
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+head{
+    height:200px;
+    padding:20px 0;
+}
+
+.logo{
+    width:50%;
+}
+.logo-principal {
+    width: 125px;
+    height: auto;
+}
+
+
+
+.Menu{
+    padding-top:30px;
+    width:50px;
+    text-align: right;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold; 
+    margin-right: 15px;
+}
+
+section.sobre{
+    height:calc(100% - 200%);
+ position: relative;   
+}
+
+.extras{
+    position:absolute;
+    bottom: -450px;
+    right: -500;
+    width:1000px;
+    left: 900px;
+    top: 170px;
+    height:1000px;
+    border-radius:100%;
+    background-color: rgb(23, 87, 3);
+}
+.copo{
+    width: 290px;
+    height: auto;
+
+}
+
+.social-media1{
+    position:absolute;
+    left:415px;
+    top:-300px;    
+    width:50px;
+    height: auto;
+}
+.social-media2{
+    position:absolute;
+    left:422px;
+    top:-240px;    
+    width:35px;
+    height: auto;
+}
+.social-media3{
+    position:absolute;
+    left:420px;
+    top:-190px;    
+    width:40px;
+    height: auto;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color:  rgb(23, 87, 3);;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+}
